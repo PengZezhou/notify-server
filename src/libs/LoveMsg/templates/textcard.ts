@@ -67,7 +67,7 @@ ${tips}\n`
 
   // 最高温度
   if (CONFIG.weather_tem && highest && +highest.replace('℃', '') <= 3) {
-    description += `起床做运动喽!\n
+    description += `
 哈喽哈喽~这里是来自${CONFIG.boy_name}的爱心提醒哦：
 今日最高温度仅为🥶 ${highest}，可冷可冷了~
 ${CONFIG.girl_name}可要注意保暖哦~\n`
