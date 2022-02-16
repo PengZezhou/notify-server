@@ -87,7 +87,10 @@ ${CONFIG.girl_name}可要注意保暖哦~\n`
   description += `
   [ 点我有惊喜 ] ❤️ 🧡 💛 💚 💖`
 
-  const title = `这是我们结婚的第 ${dateLength} 天,起床做运动喽!`
+  let myArray = ['做运动', '伸懒腰', '扭屁股', '蹲马步', '压大腿', '看远方', '俯卧撑', '开合跳', '踏步走', '跳绳', '做深蹲'];
+  let rand = Math.floor(Math.random()*myArray.length);
+  let rValue = myArray[rand];
+  const title = `这是我们结婚的第 ${dateLength} 天,起床` + rValue + `喽!`
 
   return {
     msgtype: 'textcard',
