@@ -88,7 +88,7 @@ const getStory = async() => {
       content: `给小芳的今日份睡前故事来喽：
 🌑🌒🌓🌔🌕🌝😛\n
 『${res.title}』
-${res.content}\n活动一下身体、泡个热水脚，睡觉吧，晚安~`,
+${res.content}\n\n\n活动一下身体、泡个热水脚，睡觉吧，晚安~`,
     },
   }
 
