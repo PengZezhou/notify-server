@@ -85,7 +85,7 @@ ${CONFIG.girl_name}可要注意保暖哦~\n`
 
   // 内容末尾，自定义
   description += `
-  [ 点我有惊喜 ] ❤️ 🧡 💛 💚 💖`
+  [ 戳这里] ❤️ 🧡 💛 💚 💖`
 
   let myArray = ['做运动', '伸懒腰', '扭屁股', '蹲马步', '压大腿', '看远方', '俯卧撑', '开合跳', '踏步走', '跳绳', '做深蹲'];
   let rand = Math.floor(Math.random()*myArray.length);
