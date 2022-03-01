@@ -4,7 +4,7 @@
  */
 import API from '../../api/loveMsg'
 import { wxNotify } from '../WxNotify'
-import { newsTemplate } from './templates/linktext'
+import { textTemplate } from './templates/linktext'
 
 // 美丽短句
 const goodWord = async () => {
