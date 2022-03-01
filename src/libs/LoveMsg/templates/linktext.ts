@@ -22,7 +22,7 @@ export const textTemplate = (data: TextTemplateProps) => {
   return {
     msgtype: 'text',
     text: {
-      content: text + `\n\n<a href='`+`${CONFIG.card_url}`+`'>💖</a>`,
+      content: text + `\n\n<a href='`+`${CONFIG.text_url}`+`'>💖</a>`,
     },
   }
 }
